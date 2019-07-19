@@ -3,17 +3,16 @@ import random
 import math
 from PIL import Image
 
-X = [] # list of colums
-C = [] # list of
-L = [] # list of matraces
-B = [] # list of colums
+X = []
+C = []
+L = []
+B = []
 
 def mat(A):
     return np.mat(A)
 
 def r(i,j):
      return random.randint(i,j)
-
 
 a = -100
 b = 100
@@ -59,13 +58,9 @@ for i in range(10):
             X[i].append([gray])
     X[i] = mat(X[i])
 
-
-
-
-
-
-
-
+'''
+functions' declearationns
+'''
 def train(step):
     for i in range(len(L)):
         shape = L[i].shape
