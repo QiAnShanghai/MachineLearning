@@ -58,9 +58,6 @@ for i in range(10):
             X[i].append([gray])
     X[i] = mat(X[i])
 
-'''
-functions' declearationns
-'''
 def train(step):
     for i in range(len(L)):
         shape = L[i].shape
